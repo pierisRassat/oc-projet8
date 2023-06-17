@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "SourceCodePro";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../fonts/SourceCodePro-Regular.otf.woff2") format("woff2"), url("fonts/SourceCodePro-Regular.otf.woff")
+    format("woff");
+}
+@font-face {
+    font-family: "PathwayGothicOne";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../fonts/PathwayGothicOne-Regular.woff2") format("woff2"), url("fonts/PathwayGothicOne-Regular.woff")
+    format("woff");
+}
+@font-face {
+    font-family: "Muli";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../fonts/Muli-Regular.woff2") format("woff2"), url("fonts/Muli-Regular.woff")
+    format("woff");
+}
+@font-face {
+    font-family: "NerdFontsSymbols";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../fonts/Symbols-2048-em Nerd Font Complete.woff2") format("woff2"), url("fonts/Symbols-2048-em Nerd Font Complete.woff")
+    format("woff");
+}

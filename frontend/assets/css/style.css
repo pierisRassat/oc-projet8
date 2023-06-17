@@ -1,0 +1,471 @@
+:root {
+    --background-color: #111;
+    --background-alt-color: #222;
+    --background-ter-color: #333;
+    --background-transparent-color: rgba(34, 34, 34, .7);
+    --background-transparent-alt-color: rgba(34, 34, 34, .9); 
+    --primary-color: #8c42a6;
+    --secondary-color: #73bd59;
+    --foreground-color: #eee;
+    --border-color: #000;
+}
+html {
+    max-width: 100vw;
+    background-color: var(--background-color);
+}
+.app {
+    max-width: 100vw;
+}
+header {
+    display: flex;
+    border: 0 solid var(--border-color);
+    border-radius: 15px;
+    background-color: var(--background-alt-color);
+
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+header img {
+    margin: 10px;
+}
+.logo-wrapper {
+    display: flex;
+
+    align-items: center;
+}
+header h1 {
+    font-size: 2em;
+    color: var(--foreground-color);
+}
+header button {
+    margin: 1em;
+    padding: 0;
+    border: none;
+    font-size: 1.2em;
+    color: var(--foreground-color);
+    outline: none;
+    background: none;
+}
+header button:hover {
+    color: var(--primary-color);
+}
+section.content {
+    display: flex;
+    margin: 1em 8em;
+    padding: 0;
+    border: 0 solid var(--border-color);
+    color: var(--foreground-color);
+    border-radius: 15px;
+    background-color: var(--background-ter-color);
+
+    justify-content: center;
+}
+.home-page {
+    max-width: 100%;
+    margin: 1em 12em;
+    font-family: Muli, sans-serif;
+}
+.home-img {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0 solid var(--border-color);
+    border-radius: 50%;
+}
+.home-page h1 {
+    margin-bottom: 32px;
+    font-size: 3em;
+    font-family: PathwayGothicOne, sans-serif;
+}
+.p-home-page {
+    margin-bottom: 23px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.p-home-page-training {
+    margin-bottom: 23px;
+    font-size: 1.5em;
+    text-align: justify;
+}
+.milestones-training-wrapper {
+    position: relative;
+    display: grid;
+    max-width: 100%;
+    gap: 1em 0;
+    grid-template-columns: 1fr 1fr;
+}
+.milestnones-training {
+    display: flex;
+    height: 8em;
+    padding: 3.1em 1em;
+    border: 0 solid var(--border-color);
+    font-size: 1em;
+    flex-flow: row wrap;
+}
+.milestnones-training-right {
+    height: 8em;
+    padding: 3.1em 1em;
+    border: 0 solid var(--border-color);
+    font-size: 1em;
+    text-align: right;
+    flex-flow: row wrap;
+}
+.milestnones-training-vert-line {
+    position: absolute;
+    right: 50%;
+    bottom: -41%;
+    left: 50%;
+    width: 3px;
+    height: 81em;
+    background-color: var(--primary-color);
+    transform: translate(-50%, -50%);
+}
+.milestnones-training-dot1 {
+    position: absolute;
+    top: 4em;
+    right: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border: 0 solid var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+.milestnones-training-dot2 {
+    position: absolute;
+    top: 13em;
+    right: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border: 0 solid var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+.milestnones-training-dot3 {
+    position: absolute;
+    top: 22em;
+    right: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border: 0 solid var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+.milestnones-training-dot4 {
+    position: absolute;
+    top: 31em;
+    right: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border: 0 solid var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+.milestnones-training-dot5 {
+    position: absolute;
+    top: 40em;
+    right: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border: 0 solid var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+.milestnones-training-dot6 {
+    position: absolute;
+    top: 49em;
+    right: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border: 0 solid var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+.milestnones-training-dot7 {
+    position: absolute;
+    top: 58em;
+    right: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border: 0 solid var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+.milestnones-training-dot8 {
+    position: absolute;
+    top: 67em;
+    right: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border: 0 solid var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+.milestnones-training-dot9 {
+    position: absolute;
+    top: 76em;
+    right: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border: 0 solid var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+.milestnones-training-dot10 {
+    position: absolute;
+    top: 85em;
+    right: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 30px;
+    border: 0 solid var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+.carousel {
+    position: relative;
+    display: flex;
+    margin: 2em;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+.carousel img {
+    position: relative;
+    width: 38em;
+    height: 25em;
+    object-fit: cover;
+    border-radius: 15px;
+    opacity: 1;
+    transition: opacity .2s ease-in;
+
+}
+.carousel img.active {
+    opacity: .2;
+}
+.carousel-modale {
+    opacity: 0;
+    display: flex;
+    transition: opacity .2s ease-in;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    bottom: 50%;
+    width: 25em;
+    height: 15em;
+    border-radius: 15px;
+    background-color: var(--background-transparent-alt-color);
+    padding: 1em 1.3em;
+}
+.active {
+    opacity: .8;
+}
+.modale-title {
+    background-color: var(--background-ter-color);
+    border: 0 solid var(--background-ter-color);
+    border-radius: 15px;
+    align-self: center;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--secondary-color);
+    padding: 4px 12px;
+}
+.modale-description {
+}
+.modale-link  {
+    background-color: var(--background-ter-color);
+    border: 0 solid var(--background-ter-color);
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+.modale-link a  {
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.carousel button {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    padding: 0;
+    border: 0 solid var(--border-color);
+    font-size: 3em;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--border-color);
+    border-radius: 50%;
+    outline: none;
+    background: none;
+    background-color: var(--background-alt-color);
+}
+.carousel button img {
+    width: 28px;
+    height: 28px;
+}
+.carousel-indicator {
+    position: absolute;
+    right: 50%;
+    bottom: 2%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border: 0 solid var(--border-color);
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20%;
+    background-color: var(--background-transparent-color);
+    transform: translate(-50%, -50%);
+}
+.carousel-technologies {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 7%;
+    display: flex;
+    width: 19em;
+    height: 2em;
+    font-weight: 700;
+    vertical-align: middle;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+}
+.carousel-technologies div {
+    height: 2em;
+    padding: 0 1em;
+    border: 0 solid var(--border-color);
+    line-height: 2em;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--background-transparent-alt-color);
+}
+footer {
+    display: flex;
+    height: 11em;
+    color: var(--foreground-color);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: var(--background-alt-color);
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.footer-nav {
+    display: flex;
+    font-size: .9em;
+    justify-content: center;
+}
+.footer-nav nav button {
+    margin: 10px 3em;
+    padding: 0;
+    border: none;
+    font-size: 1.2em;
+    color: var(--foreground-color);
+    outline: none;
+    background: none;
+}
+nav button:hover {
+    color: var(--primary-color);
+}
+.scroll-to-top-link {
+    width: 60px;
+    height: 40px;
+    border: 0 solid var(--background-color);
+    border-radius: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: var(--background-color);
+    margin-bottom: 1em;
+}
+footer .footer-signature {
+    margin-top: 20px;
+}
+@media screen and (max-width: 950px) {
+    header button {
+        margin: 1em;
+        font-size: 1em;
+    }
+    .home-page h1 {
+        margin-bottom: 32px;
+        font-size: 2em;
+    }
+    section.content {
+        margin: 1em .2em;
+        padding-bottom: 4em;
+    }
+    .home-page {
+        margin: 1em 4em;
+    }
+    .p-home-page {
+        font-size: 1.1em;
+    }
+    .p-home-page-training {
+        font-size: 1.2em;
+    }
+    .carousel img {
+        width: 25em;
+        height: 35em;
+        object-fit: cover;
+        border: 0 solid var(--border-color);
+    }
+    .carousel button {
+        width: 40px;
+        height: 40px;
+        font-size: 28px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .carousel button img {
+        width: 18px;
+        height: 18px;
+    }
+    .carousel-technologies {
+        top: 108%;
+        bottom: -15%;
+    }
+    .footer-nav nav button {
+        margin: 10px 1em;
+        font-size: 1.2em;
+    }
+    .scroll-to-top-link {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 595px) {
+    .carousel img {
+        width: 17em;
+        height: 25em;
+        object-fit: cover;
+    }
+}

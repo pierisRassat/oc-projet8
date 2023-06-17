@@ -1,0 +1,316 @@
+:root {
+    --cv-foreground-color: #000;
+    --cv-background-color: #fff;
+    --cv-background-alt-color: #e1b7f2;
+    --cv-background-ter-color: #f1dbf9;
+    --cv-border-color: #d193eb;
+    --cv-border-alt-color: #aa46db;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    display: flex;
+    margin: 1em;
+    font-family: NerdFontsSymbols, sans-serif;
+    line-height: 1.5;
+    flex-flow: column nowrap;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+#root,
+#__next {
+    isolation: isolate;
+}
+h1 {
+    font-family: PathwayGothicOne, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+h2 {
+    font-family: PathwayGothicOne, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+li,
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+li {
+    list-style: none;
+}
+#main-wrapper {
+    display: flex;
+    max-width: calc(100vw - 4em);
+    padding: 1em;
+    color: var(--cv-foreground-color);
+    background-color: var(--cv-background-color);
+
+    align-self: center;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+}
+aside.main-aside {
+    display: flex;
+    width: 50%;
+    border: solid 1px var(--cv-border-color);
+    line-height: 2;
+    color: var(--cv-background-color);
+    border-radius: 15px;
+    background-color: var(--cv-background-alt-color);
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+aside.main-aside p {
+    line-height: 2;
+}
+.website.p-center {
+    font-size: 1.8em;
+}
+.website.p-center a {
+    text-decoration: none;
+    color: var(--cv-background-color);
+}
+.main-image {
+    display: flex;
+}
+.main-image-wrapper {
+    display: flex;
+    align-self: center;
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    border: 5px solid var(--cv-background-color);
+    border-radius: 50%;
+    background-image: url("../images/cv/320_cropPortrait.jpg");
+    filter: brightness(1.5) opacity(68%);
+}
+.p-center {
+    text-align: center;
+}
+.github {
+    font-size: 2em;
+
+    align-self: center;
+}
+.github a {
+    text-decoration: none;
+    color: var(--cv-background-color);
+}
+.gitlab {
+    font-size: 2em;
+
+    align-self: center;
+}
+.gitlab a {
+    text-decoration: none;
+    color: var(--cv-background-color);
+}
+.lang-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.lang-1 {
+    font-size: 1.3em;
+}
+.lang-2 {
+    display: flex;
+    font-size: 1.3em;
+}
+.lang-2-lang {
+    padding: 0 5px;
+}
+.li-wrapper {
+    display: flex;
+}
+.li-wrapper-xp {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.li-obtention-year-wrapper {
+    display: flex;
+}
+.li-title {
+    padding: 0 5px;
+}
+.li-location {
+    padding: 0 5px;
+    font-style: italic;
+}
+.li-xp-details {
+    padding: 0 0;
+    font-style: italic;
+}
+.soft-skills-ul-wrapper {
+    display: flex;
+    padding: 5px 0;
+    font-family: Muli, sans-serif;
+    font-size: 1em;
+}
+.soft-skills-ul-wrapper ul {
+    margin: 0 3em;
+}
+.soft-skills-ul-wrapper ul li {
+    margin: 3px 0;
+}
+.skills-ul-wrapper {
+    display: flex;
+    padding: 5px 0;
+    font-family: Muli, sans-serif;
+    font-size: 1em;
+}
+.skills-ul-wrapper ul {
+    margin: 0 3em;
+}
+.soft-skills-ul-wrapper ul li {
+    margin: 3px 0;
+}
+.training {
+    padding: 0 1em;
+}
+.experience {
+    padding: 0 1em;
+}
+.soft-skills {
+    padding: 5px 1em;
+}
+.skills {
+    padding: 5px 1em;
+}
+.li-obtention-year {
+    font-weight: 700;
+}
+.training h2 {
+    margin-bottom: 10px;
+    padding: 0 1em;
+    border: 1px solid var(--cv-border-alt-color);
+    text-align: left;
+    border-radius: 5px;
+    background-color: var(--cv-background-ter-color);
+}
+.experience h2 {
+    margin-bottom: 10px;
+    padding: 0 1em;
+    border: 1px solid var(--cv-border-alt-color);
+    text-align: left;
+    border-radius: 5px;
+    background-color: var(--cv-background-ter-color);
+}
+.soft-skills h2 {
+    padding: 0 1em;
+    border: 1px solid var(--cv-border-alt-color);
+    text-align: left;
+    border-radius: 5px;
+    background-color: var(--cv-background-ter-color);
+}
+.skills h2 {
+    padding: 0 1em;
+    border: 1px solid var(--cv-border-alt-color);
+    text-align: left;
+    border-radius: 5px;
+    background-color: var(--cv-background-ter-color);
+}
+.id {
+    padding: 5px;
+    font-size: 1.4em;
+}
+.id h2 {
+    font-size: 1.4em;
+}
+.additional {
+    display: flex;
+    padding: 5px;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+@media screen and (max-width: 950px) {
+    #main-wrapper {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+    }
+    aside.main-aside {
+        width: 100%;
+        flex-flow: row nowrap;
+    }
+    .id {
+        font-size: 1.1em;
+    }
+    aside.main-aside {
+    }
+    aside.main-aside p {
+        line-height: 1.6;
+    }
+    .main-image-wrapper {
+        align-self: center;
+        width: 160px;
+        height: 160px;
+        background-image: url("../images/cv/160_cropPortrait.jpg");
+    }
+    .soft-skills-ul-wrapper ul {
+        margin: 0 1em;
+    }
+    .skills-ul-wrapper ul {
+        margin: 0 1em;
+    }
+    .github {
+        font-size: 1.3em;
+    }
+    .gitlab {
+        font-size: 1.3em;
+    }
+    .website.p-center {
+        font-size: 1.3em;
+    }
+    .lang-1 {
+        font-size: 1em;
+    }
+    .lang-2 {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 550px) {
+    .id {
+        font-size: .8em;
+    }
+    .main-image-wrapper {
+        align-self: center;
+        width: 100px;
+        height: 100px;
+        background-image: url("../images/cv/100_cropPortrait.jpg");
+    }
+    .website.p-center {
+        font-size: .8em;
+    }
+    .github {
+        font-size: 1em;
+        align-self: center;
+    }
+    .gitlab {
+        font-size: 1em;
+        align-self: center;
+    }
+    .lang-1 {
+        font-size: .8em;
+    }
+    .lang-2 {
+        font-size: .8em;
+    }
+}
