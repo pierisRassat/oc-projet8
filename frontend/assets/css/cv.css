@@ -34,10 +34,6 @@ h5,
 h6 {
     overflow-wrap: break-word;
 }
-#root,
-#__next {
-    isolation: isolate;
-}
 h1 {
     font-family: PathwayGothicOne, sans-serif;
     font-size: 2em;
@@ -101,6 +97,13 @@ aside.main-aside p {
     border-radius: 50%;
     background-image: url("../images/cv/320_cropPortrait.jpg");
     filter: brightness(1.5) opacity(68%);
+}
+section.id  {
+    text-align: center;
+}
+section.id a {
+    text-decoration: none;
+    color: var(--cv-background-color);
 }
 .p-center {
     text-align: center;
