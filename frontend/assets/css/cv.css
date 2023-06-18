@@ -244,6 +244,24 @@ section.id a {
     flex-flow: column nowrap;
     justify-content: space-between;
 }
+.resume-download-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--cv-border-alt-color);
+    border-radius: 50%;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: var(--cv-background-alt-color);
+}
+.resume-download-container a {
+    text-decoration: none;
+    color:  var(--cv-background-color);
+
+}
 @media screen and (max-width: 950px) {
     #main-wrapper {
         display: flex;
