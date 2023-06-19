@@ -58,7 +58,6 @@ li {
     padding: 1em;
     color: var(--cv-foreground-color);
     background-color: var(--cv-background-color);
-
     align-self: center;
     flex-flow: row-reverse nowrap;
     justify-content: center;
