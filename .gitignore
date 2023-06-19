@@ -13,6 +13,8 @@
 
 # elm
 */elm-stuff/*
+*/elm.js
+*/elm.min.js
 
 # testing
 /coverage
