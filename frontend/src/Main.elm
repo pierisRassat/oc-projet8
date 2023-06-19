@@ -52,18 +52,10 @@ update msg model =
                            )
 
                 HomePage ->
-                    if Debug.log then
-                        Debug.todo "TODO: Handle HomePage update"
-
-                    else
-                        model
+                    model
 
                 ResumePage ->
-                    if Debug.log then
-                        Debug.todo "TODO: Handle HomePage update"
-
-                    else
-                        model
+                    model
 
 
 
