@@ -24,7 +24,7 @@ view =
                 [ text "Développement HTML/CSS JavaScript et PHP (Laravel), administration Debian/Nginx/Git" ]
             , div [ class "milestnones-training-right" ]
                 [ div [] [ text "Projet Openclassroom\u{202F}:" ]
-                , div [] [ text "Créez la page d'accueil d'une agence de voyage avec HTML & CSS" ]
+                , div [] [ text "Créez une page d'accueil avec HTML & CSS" ]
                 ]
             , div [ class "milestnones-training" ] [ text "Décembre 2022" ]
             , div [ class "milestnones-training-right" ] [ text "Janvier 2023" ]
