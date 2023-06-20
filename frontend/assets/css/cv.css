@@ -64,14 +64,14 @@ li {
 }
 aside.main-aside {
     display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     width: 50%;
     border: solid 1px var(--cv-border-color);
     line-height: 2;
     color: var(--cv-background-color);
     border-radius: 15px;
     background-color: var(--cv-background-alt-color);
-    flex-flow: column nowrap;
-    justify-content: space-between;
 }
 aside.main-aside p {
     line-height: 2;
@@ -259,7 +259,6 @@ section.id a {
 .resume-download-container a {
     text-decoration: none;
     color:  var(--cv-background-color);
-
 }
 @media screen and (max-width: 950px) {
     #main-wrapper {
@@ -332,5 +331,11 @@ section.id a {
     }
     .lang-2 {
         font-size: .8em;
+    }
+}
+@media screen and (max-width: 430px) {
+    aside.main-aside {
+        display: flex;
+        flex-flow: column nowrap;
     }
 }
