@@ -115,8 +115,8 @@ section.content {
 .milestnones-training-vert-line {
     position: absolute;
     right: 50%;
-    bottom: -41%;
     left: 50%;
+    bottom: -41%;
     width: 3px;
     height: 81em;
     background-color: var(--primary-color);
@@ -466,5 +466,45 @@ footer .footer-signature {
         width: 17em;
         height: 25em;
         object-fit: cover;
+    }
+    .milestnones-training {
+        font-size: 0.8em;
+    }
+    .milestnones-training-right {
+        font-size: 0.8em;
+    }
+    .milestnones-training-vert-line {
+        top: 50%;
+        height: 67em;
+    }
+    .milestnones-training-dot1 {
+        top: 3em;
+    }
+    .milestnones-training-dot2 {
+        top: 10.5em;
+    }
+    .milestnones-training-dot3 {
+        top: 17.7em;
+    }
+    .milestnones-training-dot4 {
+        top: 25.1em;
+    }
+    .milestnones-training-dot5 {
+        top: 32.6em;
+    }
+    .milestnones-training-dot6 {
+        top: 40em;
+    }
+    .milestnones-training-dot7 {
+        top: 47.3em;
+    }
+    .milestnones-training-dot8 {
+        top: 54.8em;
+    }
+    .milestnones-training-dot9 {
+        top: 62.1em;
+    }
+    .milestnones-training-dot10 {
+        top: 69.6em;
     }
 }

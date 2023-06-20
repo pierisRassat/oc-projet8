@@ -332,10 +332,29 @@ section.id a {
     .lang-2 {
         font-size: .8em;
     }
+    .li-obtention-year-wrapper {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .li-title {
+        padding: 0;
+    }
+    .li-location {
+        padding: 0;
+    }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 440px) {
     aside.main-aside {
         display: flex;
+        flex-flow: column nowrap;
+    }
+    .li-wrapper {
+        flex-flow: column nowrap;
+    }
+    .soft-skills-ul-wrapper {
+        flex-flow: column nowrap;
+    }
+    .skills-ul-wrapper {
         flex-flow: column nowrap;
     }
 }
