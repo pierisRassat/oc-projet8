@@ -52,10 +52,10 @@ update msg model =
                            )
 
                 HomePage ->
-                    Debug.todo "TODO: Handle HomePage update"
+                    model
 
                 ResumePage ->
-                    Debug.todo "TODO: Handle ResumePage update"
+                    model
 
 
 
