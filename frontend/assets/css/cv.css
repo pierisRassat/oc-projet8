@@ -357,4 +357,22 @@ section.id a {
     .skills-ul-wrapper {
         flex-flow: column nowrap;
     }
+    .id {
+        font-size: 1.1em;
+    }
+    .website.p-center {
+        font-size: 1.5em;
+    }
+    .github {
+        font-size: 1.5em;
+    }
+    .gitlab {
+        font-size: 1.5em;
+    }
+    .lang-1 {
+        font-size: 1.2em;
+    }
+    .lang-2 {
+        font-size: 1.2em;
+    }
 }
