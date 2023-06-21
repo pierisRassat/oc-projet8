@@ -1,7 +1,7 @@
 module Page.Portfolio exposing (Model, Msg(..), init, update, view)
 
 import Basics exposing (modBy)
-import Html exposing (Html, a, button, div, img, text)
+import Html exposing (Html, a, button, div, img, output, text)
 import Html.Attributes exposing (alt, class, href, src, target)
 import Html.Events exposing (onClick)
 import List exposing (filter, indexedMap)
@@ -125,9 +125,9 @@ getPrevIndex currentIndex list =
     (currentIndex - 1 + List.length list) |> modBy (List.length list)
 
 
-indicatorDiv : String -> Html msg
-indicatorDiv indic =
-    div [ class "carousel-indicator" ] [ text indic ]
+outputIndic : String -> Html msg
+outputIndic indic =
+    output [ class "carousel-indicator" ] [ text indic ]
 
 
 renderTechnologies : List String -> List (Html msg)
@@ -191,7 +191,7 @@ view model =
                 , modaleElement
                 , button [ onClick NextImage ]
                     [ img [ src "../../assets/images/icons/carousel-next.svg", alt "suivant" ] [] ]
-                , indicatorDiv (String.fromInt (model.currentIndex + 1) ++ "/" ++ String.fromInt model.totalIndex)
+                , outputIndic (String.fromInt (model.currentIndex + 1) ++ "/" ++ String.fromInt model.totalIndex)
                 , technologiesElement
                 ]
 
