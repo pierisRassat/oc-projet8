@@ -61,7 +61,7 @@ init =
         technologies =
             [ [ "HTML", "CSS", "JavaScript" ]
             , [ "React", "CSS" ]
-            , [ "Express", "JavaScript" ]
+            , [ "Express", "MongoDB" ]
             , [ "Elm", "CSS" ]
             ]
 

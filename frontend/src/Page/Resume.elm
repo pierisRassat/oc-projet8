@@ -20,7 +20,7 @@ view =
                             [ div [ class "li-obtention-year" ] [ text "2023\u{202F}:" ]
                             , div [ class "li-details-wrapper" ]
                                 [ div [ class "li-title" ] [ text "TP développeur web (6)" ]
-                                , div [ class "li-location" ] [ text "Openclassroom.com - Paris (75)" ]
+                                , div [ class "li-location" ] [ text "Openclassrooms.com - Paris (75)" ]
                                 ]
                             ]
                         ]
