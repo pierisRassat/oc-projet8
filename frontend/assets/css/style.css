@@ -435,6 +435,9 @@ footer .footer-signature {
         object-fit: cover;
         border: 0 solid var(--border-color);
     }
+    .carousel img.carousel-img {
+        object-position: -70px top;
+    }
     .carousel button {
         width: 40px;
         height: 40px;
