@@ -21,7 +21,7 @@ view =
         , div [ class "milestones-training-wrapper" ]
             [ div [ class "milestnones-training-right" ] [ text "Depuis 2018" ]
             , div [ class "milestnones-training" ]
-                [ text "Développement HTML/CSS JavaScript et PHP (Laravel), administration Debian/Nginx/Git" ]
+                [ text "Développement HTML/CSS JavaScript et PHP (Laravel-Prestashop), administration Debian/Nginx/Git" ]
             , div [ class "milestnones-training-right" ]
                 [ div [] [ text "Projet Openclassrooms\u{202F}:" ]
                 , div [] [ text "Créez une page d'accueil avec HTML & CSS" ]
