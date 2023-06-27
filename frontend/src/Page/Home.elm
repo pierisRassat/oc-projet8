@@ -7,7 +7,7 @@ import Html.Attributes exposing (class, src)
 view : Html msg
 view =
     div [ class "home-page" ]
-        [ img [ src "../assets/images/cv/160_cropPortrait.jpg", class "home-img" ] []
+        [ img [ src "../assets/images/cv/160_portrait.jpg", class "home-img" ] []
         , h1 [] [ text "Bonjour et bienvenue" ]
         , p [ class "p-home-page" ] [ text "Je m'appelle Pieris RASSAT (framend sur irc et le web)." ]
         , p [ class "p-home-page" ] [ text "Je suis développeur web fullstack." ]

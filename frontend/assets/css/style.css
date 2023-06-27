@@ -73,6 +73,7 @@ section.content {
     margin-left: auto;
     border: 0 solid var(--border-color);
     border-radius: 50%;
+    object-fit: cover;
 }
 .home-page h1 {
     margin-bottom: 32px;
