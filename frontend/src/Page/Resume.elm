@@ -160,7 +160,7 @@ view =
                 ]
             , div [ class "resume-download-container" ]
                 [ div [ class "resume-download-wrapper" ] [ text "" ]
-                , a [ href "../../assets/dl/devCv.pdf", download "devCv.pdf" ] [ text "CV.pdf" ]
+                , a [ href "../../assets/dl/devCv.pdf", download "Pieris_RASSAT_dev-resume.pdf" ] [ text "CV.pdf" ]
                 ]
             ]
         , aside [ class "main-aside" ]
