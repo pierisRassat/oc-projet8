@@ -32,27 +32,27 @@ init : Model
 init =
     let
         images =
-            [ { description = "Projet d'étude portant sur l'optimisation d'un site web. Retrait de jQuery et réécriture des éléments en JavaScript vanilla. Purge des elements inutiles de bootstrap."
+            [ { description = "Projet d'étude portant sur l'optimisation d'un site web. Retrait de jQuery et réécriture des éléments en JavaScript vanilla. Purge des elements inutiles de bootstrap. La difficulté était de trouver l'équilibre entre le temps de travail et le gain de performance."
               , url = "../../assets/images/portfolio/portfolio1.webp"
-              , isActive = False
+              , isActive = True
               , title = "Nina Carducci\u{202F}: "
               , link = "https://github.com/pierisRassat/oc-projet5"
               }
-            , { description = "Projet d'étude portant sur la création d'un frontend en React.js, les composants, les props, les états de l'application, la gestion des effets de bord."
+            , { description = "Projet d'étude portant sur la création d'un frontend en React.js, les composants, les props, les états de l'application, la gestion des effets de bord. Le challenge ici portait sur la gestion des états de l'application et des effets de bord."
               , url = "../../assets/images/portfolio/portfolio2.webp"
-              , isActive = False
+              , isActive = True
               , title = "Kasa\u{202F}: "
               , link = "https://github.com/pierisRassat/oc-projet6"
               }
-            , { description = "Projet d'étude portant sur la création d'une API en Express.js, l'authentification et les différents endpoints."
+            , { description = "Projet d'étude portant sur la création d'une API en Express.js, l'authentification et les différents endpoints. La problèmatique de ce projet portait essentiellement sur l'utilisation de la pile cryptographique pour l'authentification."
               , url = "../../assets/images/portfolio/portfolio3.webp"
-              , isActive = False
+              , isActive = True
               , title = "Mon vieux grimoire\u{202F}: "
               , link = "https://github.com/pierisRassat/oc-projet7"
               }
-            , { description = "Projet d'étude portant sur la création d'un frontend en elm, programmation fonctionnelle, gestion des états de l'application. Vous êtes présentement en train de l'utiliser."
+            , { description = "Projet d'étude portant sur la création d'un frontend en elm, programmation fonctionnelle, gestion des états de l'application. La toolchain de Elm est particulièrement simple et bien conçue et permet une prise en main assez rapide."
               , url = "../../assets/images/portfolio/portfolio4.webp"
-              , isActive = False
+              , isActive = True
               , title = "Portfolio\u{202F}: "
               , link = "https://github.com/pierisRassat/oc-projet8"
               }

@@ -250,11 +250,11 @@ section.id a {
     margin: auto;
     width: 80px;
     height: 80px;
-    border: 1px solid var(--cv-border-alt-color);
+    border: 1px solid var(--secondary-color);
     border-radius: 50%;
     font-size: 1em;
     font-weight: 700;
-    background-color: var(--cv-background-alt-color);
+    background-color: var(--secondary-color);
 }
 .resume-download-container a {
     text-decoration: none;

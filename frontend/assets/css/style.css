@@ -277,7 +277,7 @@ section.content {
     top: 50%;
     bottom: 50%;
     width: 25em;
-    height: 15em;
+    height: 18em;
     border-radius: 15px;
     background-color: var(--background-transparent-alt-color);
     padding: 1em 1.3em;
@@ -332,7 +332,7 @@ section.content {
 .carousel-indicator {
     position: absolute;
     right: 50%;
-    bottom: 2%;
+    bottom: -2%;
     left: 50%;
     width: 40px;
     height: 40px;
@@ -357,6 +357,7 @@ section.content {
     vertical-align: middle;
     transform: translate(-50%, -50%);
     justify-content: space-around;
+    color: var(--secondary-color);
 }
 .carousel-technologies div {
     height: 2em;
@@ -470,6 +471,17 @@ footer .footer-signature {
         width: 17em;
         height: 25em;
         object-fit: cover;
+    }
+    .carousel-modale {
+        width: 17em;
+        height: 25em;
+        font-size: 0.8em;
+    }
+    .carousel-indicator {
+        bottom: -4%;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
     }
     .milestnones-training {
         font-size: 0.8em;

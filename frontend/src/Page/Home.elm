@@ -1,22 +1,18 @@
 module Page.Home exposing (view)
 
 import Html exposing (Html, div, h1, img, p, text)
-import Html.Attributes exposing (class, src)
+import Html.Attributes exposing (alt, class, src)
 
 
 view : Html msg
 view =
     div [ class "home-page" ]
-        [ img [ src "../assets/images/cv/160_portrait.jpg", class "home-img" ] []
+        [ img [ src "../assets/images/cv/160_portrait.jpg", class "home-img", alt "portrait" ] []
         , h1 [] [ text "Bonjour et bienvenue" ]
         , p [ class "p-home-page" ] [ text "Je m'appelle Pieris RASSAT (framend sur irc et le web)." ]
-        , p [ class "p-home-page" ] [ text "Je suis développeur web fullstack." ]
-        , p [ class "p-home-page" ] [ text "Autodidacte et éternel étudiant, je suis en cours d'obtention d'un titre RNCP n°32173 «\u{202F}Développeur Web\u{202F}», niveau Bac +2 auprès d'Openclassrooms." ]
-        , p [ class "p-home-page" ] [ text "En me reconvertissant, j'ai enfin pû allier ma passion pour la programmation à mon besoin de créer." ]
-        , p [ class "p-home-page" ] [ text "Je suis curieux et toujours intéressé par l'apprentissage de nouveaux langages et frameworks. " ]
+        , p [ class "p-home-page" ] [ text "Actuellement je recherche mon premier poste salarié en tant que développeur web fullstack/backend." ]
+        , p [ class "p-home-page" ] [ text "Je suis en cours d'obtention d'un titre RNCP n°32173 «\u{202F}Développeur Web\u{202F}», niveau Bac +2 auprès d'Openclassrooms." ]
         , p [ class "p-home-page" ] [ text " J'apprécie particulièrement la programmation fonctionnelle, mais j'utilise également l'orienté objet via PHP, React, Vue.js ou TypeScript pour créer des applications dynamiques et attrayantes." ]
-        , p [ class "p-home-page" ] [ text "Ma créativité est mon moteur. J'aime trouver des solutions originales et créer des expériences utilisateur uniques." ]
-        , p [ class "p-home-page" ] [ text "Je sais démêler les problèmes complexes pour les rendre plus faciles à gérer. Je suis méticuleux et je m'assure toujours de produire des résultats précis et fiables." ]
         , p [ class "p-home-page-training" ] [ text "Laissez moi vous présenter mon parcours de formation\u{202F}:" ]
         , div [ class "milestones-training-wrapper" ]
             [ div [ class "milestnones-training-right" ] [ text "Depuis 2018" ]
