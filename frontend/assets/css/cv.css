@@ -107,21 +107,19 @@ section.id a {
 .p-center {
     text-align: center;
 }
-.github {
+.cv-github {
     font-size: 2em;
-
     align-self: center;
 }
-.github a {
+.cv-github a {
     text-decoration: none;
     color: var(--cv-background-color);
 }
-.gitlab {
+.cv-gitlab {
     font-size: 2em;
-
     align-self: center;
 }
-.gitlab a {
+.cv-gitlab a {
     text-decoration: none;
     color: var(--cv-background-color);
 }
@@ -363,10 +361,10 @@ section.id a {
     .website.p-center {
         font-size: 1.5em;
     }
-    .github {
+    .cv-github {
         font-size: 1.5em;
     }
-    .gitlab {
+    .cv-gitlab {
         font-size: 1.5em;
     }
     .lang-1 {

@@ -1,7 +1,7 @@
 module Main exposing (..)
 
 import Browser
-import Html exposing (Html, a, button, div, footer, h1, header, img, nav, section, text)
+import Html exposing (Html, a, button, div, footer, h1, header, img, nav, p, section, text)
 import Html.Attributes exposing (alt, class, href, src)
 import Html.Events exposing (onClick)
 import Page.Home as Home
@@ -74,7 +74,10 @@ view model =
 
         navigation =
             nav []
-                [ button [ onClick (ChangePage HomePage) ] [ text "Accueil" ]
+                [ p [ class "linkedin" ] [ a [ href "https://www.linkedin.com/in/pieris-rassat-426751280/" ] [ text "\u{F0E1}" ] ]
+                , p [ class "github" ] [ a [ href "https://github.com/pierisRassat" ] [ text "\u{EB00}" ] ]
+                , p [ class "gitlab" ] [ a [ href "https://gitlab.com/web-apps3574524" ] [ text "\u{F0BA0}" ] ]
+                , button [ onClick (ChangePage HomePage) ] [ text "Accueil" ]
                 , button [ onClick (ChangePage PortfolioPage) ] [ text "Portfolio" ]
                 , button [ onClick (ChangePage ResumePage) ] [ text "CV" ]
                 ]
